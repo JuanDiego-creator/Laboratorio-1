@@ -20,9 +20,13 @@ int main(){
             if(prom >= 14){
                 printf("FELICIDADES!!\n");
                 printf("Aprueba\n");
+                printf("FELICES VACACIONES\n");
             }else if (prom < 14 && prom >= 11){
+                printf("BIENVENIDOS A SUPLETORIOS\n");
+                printf("ESFUERZATE EN LOS SUPLETORIOS\n");
                 printf("Supletorio\n");
             }else{
+                printf("ESFUERZATE MAS PARA LA PROXIMA\n");
                 printf("Reprueba\n");
             }
         }
