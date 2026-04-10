@@ -29,6 +29,8 @@ int main(){
                 printf("ESFUERZATE MAS PARA LA PROXIMA\n");
                 printf("Reprueba\n");
             }
+        }else{
+            printf("Ingrese numeros positivos\n");
         }
     }
 
