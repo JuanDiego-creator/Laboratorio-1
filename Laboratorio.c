@@ -5,6 +5,8 @@ int main(){
     float num2 = 0;
     float suma = 0;
 
+
+    printf("----Ingrese sus Notas----\n");
     while (num1 <= 0 || num2 <= 0){
         printf("Ingrese la nota 1: \n");
         scanf("%f", &num1);
