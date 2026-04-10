@@ -3,7 +3,6 @@
 int main(){
     float num1 = 0;
     float num2 = 0;
-    float suma = 0;
 
 
     printf("----Ingrese sus Notas----\n");
@@ -12,9 +11,6 @@ int main(){
         scanf("%f", &num1);
         printf("Ingrese la nota 2: \n");
         scanf("%f", &num2);
-
-        suma = num1 + num2;
-        printf("Suma %.2f\n", suma);
 
 
         if (num1 >= 0 && num2 >= 0){
